@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: azure;
+    width: 65%;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(98, 98, 98, 0.24), -10px -10px 20px rgba(111, 110, 110, 0.322);
+    border-top: 10px solid#0093E9;
+}
+form h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.divcontainer{
+    border: 1px solid rgba(0, 0, 0, 0.645);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding: 4px 10px;
+}
+.divcontainer input{
+    width: 85%;
+    height: 99%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.checkbox{
+    border: none;
+}
+.divcontainer select{
+    width: 100%;
+    padding: 10px;
+}
+.select{
+    padding: 0;
+    border: none;
+}
+select{
+    font-size: 16px;
+}
+select option{
+    font-size: 15px;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.genderbox{
+    border: none;
+    margin-left: -18px;
+}
+.gender input{
+    margin-right: 3px;
+}
